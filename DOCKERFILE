@@ -1,0 +1,4 @@
+FROM gcr.io/distroless/python3-debian12
+COPY app.py /
+CMD ["app.py"]
+# Distroless - minimal attack surface
